@@ -7,14 +7,14 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:id="@+id/nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
         android:text="@string/app_name"
+        android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,4 +29,28 @@
         android:contentDescription="@string/accDesc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/mapImg"
+        android:layout_width="414dp"
+        android:layout_height="203dp"
+        android:contentDescription="@string/accDesc"
+        android:onClick="activityOperator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/map_img_test" />
+
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/helpBtn"
+        android:onClick="activityOperator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

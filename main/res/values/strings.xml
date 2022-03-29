@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SUOL</string>
     <string name="accDesc">Account Icon</string>
+    <string name="helpBtn">Помощь</string>
 </resources>

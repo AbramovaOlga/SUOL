@@ -35,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent0 = new Intent(this, accountActivity.class);
                 startActivity(intent0);
                 break;
+            case R.id.mapImg:
+                Intent intent1 = new Intent(this, mapActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.helpBtn:
+                Intent intent2 = new Intent(this, helpActivity.class);
+                startActivity(intent2);
+                break;
         }
     }
 }
