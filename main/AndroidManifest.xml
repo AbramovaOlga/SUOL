@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LT">
         <activity
+            android:name=".answersActivity"
+            android:exported="false" />
+        <activity
             android:name=".helpActivity"
             android:exported="false" />
         <activity

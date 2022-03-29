@@ -2,4 +2,11 @@
     <string name="app_name">SUOL</string>
     <string name="accDesc">Account Icon</string>
     <string name="helpBtn">Помощь</string>
+    <string-array name="helpPage">
+        <item>Инструкция</item>
+        <item>Для чего нужны баллы?</item>
+        <item>И тд</item>
+    </string-array>
+    <string name="firAns">Инструкция</string>
+    <string name="secAns">Для чего нужны баллы?</string>
 </resources>
