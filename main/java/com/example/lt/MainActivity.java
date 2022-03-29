@@ -1,10 +1,12 @@
 package com.example.lt;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Switch;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this, helpActivity.class);
                 startActivity(intent2);
                 break;
+        }
+    }
+
+    public void switchOnClick(View view){
+        Switch switch1 = findViewById(R.id.themeSwitch);
+
+        if (switch1.isChecked()){
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else{
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
     }
 }
