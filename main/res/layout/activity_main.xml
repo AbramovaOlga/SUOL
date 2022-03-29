@@ -13,33 +13,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
         android:text="@string/app_name"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        app:srcCompat="@drawable/acc_img_test"
         android:id="@+id/accountImg"
-        android:layout_width="51dp"
-        android:layout_height="66dp"
+        android:layout_width="53dp"
+        android:layout_height="59dp"
         android:layout_marginStart="340dp"
         android:layout_marginTop="24dp"
-        android:onClick="activityOperator"
-        android:contentDescription="@string/accDesc"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <ImageView
-        android:id="@+id/mapImg"
-        android:layout_width="414dp"
-        android:layout_height="203dp"
         android:contentDescription="@string/accDesc"
         android:onClick="activityOperator"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/map_img_test" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/acc_img_test" />
 
     <Button
         android:id="@+id/helpBtn"
@@ -54,13 +44,120 @@
 
     <Switch
         android:id="@+id/themeSwitch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="92dp"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="88dp"
         android:onClick="switchOnClick"
         app:layout_constraintStart_toEndOf="@+id/helpBtn"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="421dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/themeSwitch">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="200sp"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="20dp"
+                        app:srcCompat="@drawable/ic_sights1" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="200sp"
+                        android:layout_height="200sp"
+                        app:srcCompat="@drawable/ic_sights2" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="200sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingHorizontal="20dp"
+                        app:srcCompat="@drawable/ic_sights1" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="200sp"
+                        android:layout_height="200sp"
+                        android:paddingHorizontal="20dp"
+                        app:srcCompat="@drawable/ic_sights1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="200sp"
+                        android:layout_height="200sp"
+                        app:srcCompat="@drawable/ic_sights2" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="200sp"
+                        android:layout_height="200sp"
+                        android:layout_weight="1"
+                        android:paddingHorizontal="20dp"
+                        app:srcCompat="@drawable/ic_sights1" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/mapImg"
+                android:layout_width="414dp"
+                android:layout_height="300dp"
+                android:contentDescription="@string/accDesc"
+                android:onClick="activityOperator"
+                android:paddingVertical="20dp"
+                app:srcCompat="@drawable/map_img_test" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
