@@ -4,6 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".accountActivity">
+    tools:context=".accountActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/accountImg"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:contentDescription="@string/accDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toEndOf="@+id/helpBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_account" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/accountImg"
+        app:layout_constraintStart_toEndOf="@+id/helpBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_suol" />
+
+    <ImageView
+        android:id="@+id/helpBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/accDesc"
+        android:onClick="activityOperator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_setting" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="105dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpBtn"
+        app:srcCompat="@drawable/ic_profile_photo" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="253dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/accountImg"
+        app:srcCompat="@drawable/ic_name_textbox" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="191dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ic_short_inf" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="131dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/ic_score" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="346dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/ic_visited" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
