@@ -87,28 +87,32 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView7"
+                        android:id="@+id/y_fir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_first" />
+                        app:srcCompat="@drawable/ic_y_first"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView8"
+                        android:id="@+id/y_sec"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_sec" />
+                        app:srcCompat="@drawable/ic_y_sec"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView9"
+                        android:id="@+id/y_thir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_third" />
+                        app:srcCompat="@drawable/ic_y_third"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView10"
+                        android:id="@+id/y_four"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_forth" />
+                        app:srcCompat="@drawable/ic_y_forth"
+                        android:onClick="webSitesLinks"/>
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -131,28 +135,32 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageView12"
+                        android:id="@+id/n_fir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_fir" />
+                        app:srcCompat="@drawable/ic_n_fir"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView13"
+                        android:id="@+id/n_sec"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_sec" />
+                        app:srcCompat="@drawable/ic_n_sec"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView14"
+                        android:id="@+id/n_thir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_third" />
+                        app:srcCompat="@drawable/ic_n_third"
+                        android:onClick="webSitesLinks"/>
 
                     <ImageView
-                        android:id="@+id/imageView15"
+                        android:id="@+id/n_four"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_forth" />
+                        app:srcCompat="@drawable/ic_n_forth"
+                        android:onClick="webSitesLinks"/>
                 </LinearLayout>
             </HorizontalScrollView>
 

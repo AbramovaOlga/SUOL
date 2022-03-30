@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="125dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/ic_developer_text" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="190dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_developer" />
+
+    <Button
+        android:id="@+id/vkDevBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/vk"
+        android:fontFamily="@font/playfair_display"
+        android:backgroundTint="@color/vk"
+        android:onClick="webSitesLinks"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <Button
+        android:id="@+id/waDevBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/whatsapp"
+        android:fontFamily="@font/playfair_display"
+        android:text="@string/whatsapp"
+        android:onClick="webSitesLinks"
+        app:layout_constraintEnd_toEndOf="@+id/vkDevBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vkDevBtn"
+        app:layout_constraintTop_toBottomOf="@+id/vkDevBtn" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="190dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_designer" />
+
+    <Button
+        android:id="@+id/waDesBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/whatsapp"
+        android:fontFamily="@font/playfair_display"
+        android:text="@string/whatsapp"
+        android:onClick="webSitesLinks"
+        app:layout_constraintEnd_toEndOf="@+id/vkDesBtn"
+        app:layout_constraintStart_toStartOf="@+id/vkDesBtn"
+        app:layout_constraintTop_toBottomOf="@+id/vkDesBtn" />
+
+    <Button
+        android:id="@+id/vkDesBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/vk"
+        android:onClick="webSitesLinks"
+        android:fontFamily="@font/playfair_display"
+        android:backgroundTint="@color/vk"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="113dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_designer_text" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="190dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_manager" />
+
+    <Button
+        android:id="@+id/vkMngBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/vk"
+        android:fontFamily="@font/playfair_display"
+        android:backgroundTint="@color/vk"
+        android:onClick="webSitesLinks"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="129dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/ic_manager_text" />
+
+    <Button
+        android:id="@+id/waMngBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/whatsapp"
+        android:fontFamily="@font/playfair_display"
+        android:text="@string/whatsapp"
+        android:onClick="webSitesLinks"
+        app:layout_constraintEnd_toEndOf="@+id/vkMngBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vkMngBtn"
+        app:layout_constraintTop_toBottomOf="@+id/vkMngBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

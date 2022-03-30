@@ -5,8 +5,14 @@
     <string-array name="helpPage">
         <item>Инструкция</item>
         <item>Для чего нужны баллы?</item>
-        <item>И тд</item>
+        <item>Разработчики</item>
     </string-array>
     <string name="firAns">Инструкция</string>
+    <string name="instructions">ds;flkj</string>
     <string name="secAns">Для чего нужны баллы?</string>
+    <string name="scoreExplain">gdakj</string>
+    
+    <string name="vk">Vk</string>
+    <string name="whatsapp">WhatsApp</string>
+
 </resources>
