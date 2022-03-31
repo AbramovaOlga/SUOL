@@ -45,36 +45,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_setting" />
 
-    <Switch
-        android:id="@+id/themeSwitch"
-        android:layout_width="98dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="92dp"
-        android:onClick="switchOnClick"
-        app:layout_constraintStart_toEndOf="@+id/helpBtn"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:layout_width="421dp"
         android:layout_height="0dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/themeSwitch">
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="8dp"
-                android:text="TextView" />
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="140dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_yakusk" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -90,39 +79,37 @@
                         android:id="@+id/y_fir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_first"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_y_first" />
 
                     <ImageView
                         android:id="@+id/y_sec"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_sec"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_y_sec" />
 
                     <ImageView
                         android:id="@+id/y_thir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_third"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_y_third" />
 
                     <ImageView
                         android:id="@+id/y_four"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_y_forth"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_y_forth" />
                 </LinearLayout>
             </HorizontalScrollView>
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="8dp"
-                android:text="TextView" />
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="180dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_nerungry" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -138,29 +125,29 @@
                         android:id="@+id/n_fir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_fir"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_n_fir" />
 
                     <ImageView
                         android:id="@+id/n_sec"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_sec"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_n_sec" />
 
                     <ImageView
                         android:id="@+id/n_thir"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_third"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_n_third" />
 
                     <ImageView
                         android:id="@+id/n_four"
                         android:layout_width="174dp"
                         android:layout_height="200sp"
-                        app:srcCompat="@drawable/ic_n_forth"
-                        android:onClick="webSitesLinks"/>
+                        android:onClick="webSitesLinks"
+                        app:srcCompat="@drawable/ic_n_forth" />
                 </LinearLayout>
             </HorizontalScrollView>
 

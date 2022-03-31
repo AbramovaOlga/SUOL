@@ -11,8 +11,11 @@ public class loginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.enter_layout);
     }
+
+    public void onEnterClick(View view){setContentView(R.layout.activity_login);}
+
 
     public void onSignUpClick(View view){
         setContentView(R.layout.sign_up);

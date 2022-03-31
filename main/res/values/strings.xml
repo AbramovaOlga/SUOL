@@ -8,9 +8,9 @@
         <item>Разработчики</item>
     </string-array>
     <string name="firAns">Инструкция</string>
-    <string name="instructions">ds;flkj</string>
+    <string name="instructions">С помощью нашего приложения можно найти интересные места Якутии. \nПосещайте их и получайте баллы.</string>
     <string name="secAns">Для чего нужны баллы?</string>
-    <string name="scoreExplain">gdakj</string>
+    <string name="scoreExplain">Для повышения интереса и спроса к приложению, были введены баллы.\nЭто виртуальная валюта, которую можно получить за комментарии и фотографии в приложении. \n\nДанную валюту можно будет обменять на промокоды со скидками.</string>
 
     <string name="vk">Vk</string>
     <string name="whatsapp">WhatsApp</string>
